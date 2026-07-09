@@ -81,7 +81,7 @@ The final application supports:
 ### Application UI
 
 <p align="center">
-  <img src="./docs/assets/app-ui.png" alt="Tomato Classification Streamlit App UI" width="850">
+  <img src="./docs/assets/app-ui.jpg" alt="Tomato Classification Streamlit App UI" width="850">
 </p>
 
 ### Prediction Output
@@ -300,7 +300,7 @@ Per-class metrics from the best YOLOv8m checkpoint:
 ### Normalized Confusion Matrix
 
 <p align="center">
-  <img src="./docs/assets/confusion-matrix-normalized.png" alt="Normalized Confusion Matrix" width="700">
+  <img src="./docs/assets/normalized-confusion-matrix.jpg" alt="Normalized Confusion Matrix" width="700">
 </p>
 
 ### Precision-Recall Curve
