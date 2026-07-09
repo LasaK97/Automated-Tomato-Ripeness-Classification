@@ -20,8 +20,6 @@ A computer vision system for **tomato detection and ripeness classification** us
 
 The system includes a Streamlit application for interactive inference, YOLOv8 training/evaluation artifacts, and an additional FastAPI-based inference layout for image, video, and live-feed processing.
 
-**Developer:** Lasantha Kulasooriya
-
 ---
 
 <p align="center">
