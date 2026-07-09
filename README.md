@@ -300,7 +300,7 @@ Per-class metrics from the best YOLOv8m checkpoint:
 ### Normalized Confusion Matrix
 
 <p align="center">
-  <img src="./docs/assets/normalized-confusion-matrix.jpg" alt="Normalized Confusion Matrix" width="700">
+  <img src="https://github.com/LasaK97/Automated-Tomato-Ripeness-Classification/blob/main/docs/assets/confusion-matrix-normalized.png?raw=true" alt="Normalized Confusion Matrix" width="700">
 </p>
 
 ### Precision-Recall Curve
