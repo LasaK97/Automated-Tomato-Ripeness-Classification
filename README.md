@@ -81,13 +81,13 @@ The final application supports:
 ### Application UI
 
 <p align="center">
-  <img src="./app2/app%20UI.png" alt="Tomato Classification Streamlit App UI" width="850">
+  <img src="./docs/assets/app-ui.png" alt="Tomato Classification Streamlit App UI" width="850">
 </p>
 
 ### Prediction Output
 
 <p align="center">
-  <img src="./tmto/src/runs/detect/predict/IMG_0991.jpg" alt="Tomato Ripeness Prediction Output" width="700">
+  <img src="./docs/assets/prediction-img-0991.jpg" alt="Tomato Ripeness Prediction Output" width="700">
 </p>
 
 ---
@@ -125,6 +125,8 @@ Tomato Ripeness Classification/
 │   ├── images/                 # Demo images
 │   ├── assets/                 # UI/demo assets
 │   └── weights/                # Local model weights, ignored by git
+├── docs/
+│   └── assets/                 # README images tracked for GitHub rendering
 ├── tmto/
 │   ├── data/
 │   │   ├── dataset.yaml        # YOLO dataset configuration
@@ -286,43 +288,43 @@ Per-class metrics from the best YOLOv8m checkpoint:
 ### Training Results
 
 <p align="center">
-  <img src="./tmto/src/runs/detect/train2/results.png" alt="YOLOv8m Training Results" width="850">
+  <img src="./docs/assets/results.png" alt="YOLOv8m Training Results" width="850">
 </p>
 
 ### Confusion Matrix
 
 <p align="center">
-  <img src="./tmto/src/runs/detect/train2/confusion_matrix.png" alt="Confusion Matrix" width="700">
+  <img src="./docs/assets/confusion-matrix.png" alt="Confusion Matrix" width="700">
 </p>
 
 ### Normalized Confusion Matrix
 
 <p align="center">
-  <img src="./tmto/src/runs/detect/train2/confusion_matrix_normalized.png" alt="Normalized Confusion Matrix" width="700">
+  <img src="./docs/assets/confusion-matrix-normalized.png" alt="Normalized Confusion Matrix" width="700">
 </p>
 
 ### Precision-Recall Curve
 
 <p align="center">
-  <img src="./tmto/src/runs/detect/train2/PR_curve.png" alt="Precision Recall Curve" width="700">
+  <img src="./docs/assets/pr-curve.png" alt="Precision Recall Curve" width="700">
 </p>
 
 ### F1 Confidence Curve
 
 <p align="center">
-  <img src="./tmto/src/runs/detect/train2/F1_curve.png" alt="F1 Confidence Curve" width="700">
+  <img src="./docs/assets/f1-curve.png" alt="F1 Confidence Curve" width="700">
 </p>
 
 ### Precision Curve
 
 <p align="center">
-  <img src="./tmto/src/runs/detect/train2/P_curve.png" alt="Precision Curve" width="700">
+  <img src="./docs/assets/precision-curve.png" alt="Precision Curve" width="700">
 </p>
 
 ### Recall Curve
 
 <p align="center">
-  <img src="./tmto/src/runs/detect/train2/R_curve.png" alt="Recall Curve" width="700">
+  <img src="./docs/assets/recall-curve.png" alt="Recall Curve" width="700">
 </p>
 
 ---
@@ -459,4 +461,3 @@ app2/settings.py
 ## Developer
 
 **Lasantha Kulasooriya**
-
