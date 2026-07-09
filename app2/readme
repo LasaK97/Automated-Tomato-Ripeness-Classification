@@ -1,0 +1,7 @@
+Instructions:
+ 1. Copy the folder.
+ 2. Open terminal and run : 'pip install -r requirements.txt'
+ 3. Open terminal (/app2) : streamlit run app.py
+ 
+ 
+

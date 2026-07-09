@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomato Classifier</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <h1>Tomato Classifier</h1>
+    <form id="upload-form">
+        <label for="file-upload">Upload Image/Video:</label>
+        <input type="file" id="file-upload" name="file">
+        <button type="submit">Upload and Predict</button>
+    </form>
+    <div id="output">
+        <div id="input-side">
+            <h3>Input</h3>
+            <img id="input-image" src="" alt="Input Image">
+            <video id="input-video" controls></video>
+        </div>
+        <div id="output-side">
+            <h3>Output</h3>
+            <img id="output-image" src="" alt="Output Image">
+            <video id="output-video" controls></video>
+        </div>
+    </div>
+    <script src="/static/js/scripts.js"></script>
+</body>
+</html>

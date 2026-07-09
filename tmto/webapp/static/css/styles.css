@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#output {
+    display: flex;
+    justify-content: space-around;
+}
+
+#input-side, #output-side {
+    width: 45%;
+}
+
+img, video {
+    width: 100%;
+    height: auto;
+}

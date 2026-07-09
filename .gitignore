@@ -1,0 +1,75 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.python-version
+.venv/
+venv/
+env/
+ENV/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# IDE, OS, and notebook noise
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+
+# Logs and local runtime output
+*.log
+logs/
+tmp/
+temp/
+
+# ML datasets and annotation exports
+data/train/
+data/val/
+data/test/
+**/data/train/
+**/data/val/
+**/data/test/
+dataset/
+datasets/
+annotations/
+*.csv
+*.cache
+
+# YOLO/Ultralytics training, validation, and prediction outputs
+runs/
+wandb/
+mlruns/
+tensorboard/
+checkpoints/
+artifacts/
+
+# Model weights and exported model binaries
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+*.h5
+*.keras
+*.tflite
+*.pkl
+*.joblib
+
+# Video files and uploaded runtime media
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+videos/
+vedio/
+static/uploads/
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
