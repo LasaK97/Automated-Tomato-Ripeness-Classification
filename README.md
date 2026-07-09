@@ -43,13 +43,9 @@ The system includes a Streamlit application for interactive inference, YOLOv8 tr
     - [Model Comparison](#model-comparison)
     - [Per-Class Evaluation](#per-class-evaluation)
   - [Visual Evaluation Artifacts](#visual-evaluation-artifacts)
-    - [Training Results](#training-results)
-    - [Confusion Matrix](#confusion-matrix)
-    - [Normalized Confusion Matrix](#normalized-confusion-matrix)
-    - [Precision-Recall Curve](#precision-recall-curve)
-    - [F1 Confidence Curve](#f1-confidence-curve)
-    - [Precision Curve](#precision-curve)
-    - [Recall Curve](#recall-curve)
+    - [Training Curves](#training-curves)
+    - [Confusion Matrices](#confusion-matrices)
+    - [Metric Curves](#metric-curves)
   - [Application Workflow](#application-workflow)
   - [Installation](#installation)
   - [Run Streamlit App](#run-streamlit-app)
@@ -285,47 +281,51 @@ Per-class metrics from the best YOLOv8m checkpoint:
 
 ## Visual Evaluation Artifacts
 
-### Training Results
+### Training Curves
 
 <p align="center">
   <img src="./docs/assets/results.png" alt="YOLOv8m Training Results" width="850">
 </p>
 
-### Confusion Matrix
+### Confusion Matrices
 
-<p align="center">
-  <img src="./docs/assets/confusion-matrix.png" alt="Confusion Matrix" width="700">
-</p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Confusion Matrix</strong><br>
+      <img src="./docs/assets/confusion-matrix.png" alt="Confusion Matrix" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <strong>Normalized Confusion Matrix</strong><br>
+      <img src="./docs/assets/confusion-matrix-normalized.png" alt="Normalized Confusion Matrix" width="100%">
+    </td>
+  </tr>
+</table>
 
-### Normalized Confusion Matrix
+### Metric Curves
 
-<p align="center">
-  <img src="https://github.com/LasaK97/Automated-Tomato-Ripeness-Classification/blob/main/docs/assets/confusion-matrix-normalized.png?raw=true" alt="Normalized Confusion Matrix" width="700">
-</p>
-
-### Precision-Recall Curve
-
-<p align="center">
-  <img src="./docs/assets/pr-curve.png" alt="Precision Recall Curve" width="700">
-</p>
-
-### F1 Confidence Curve
-
-<p align="center">
-  <img src="./docs/assets/f1-curve.png" alt="F1 Confidence Curve" width="700">
-</p>
-
-### Precision Curve
-
-<p align="center">
-  <img src="./docs/assets/precision-curve.png" alt="Precision Curve" width="700">
-</p>
-
-### Recall Curve
-
-<p align="center">
-  <img src="./docs/assets/recall-curve.png" alt="Recall Curve" width="700">
-</p>
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Precision-Recall Curve</strong><br>
+      <img src="./docs/assets/pr-curve.png" alt="Precision Recall Curve" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <strong>F1 Confidence Curve</strong><br>
+      <img src="./docs/assets/f1-curve.png" alt="F1 Confidence Curve" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <strong>Precision Curve</strong><br>
+      <img src="./docs/assets/precision-curve.png" alt="Precision Curve" width="100%">
+    </td>
+    <td align="center" width="50%">
+      <strong>Recall Curve</strong><br>
+      <img src="./docs/assets/recall-curve.png" alt="Recall Curve" width="100%">
+    </td>
+  </tr>
+</table>
 
 ---
 
